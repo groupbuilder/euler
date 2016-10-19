@@ -8,3 +8,9 @@ cc_binary (
     "//numbers:modular_lib",
   ],
 )
+cc_binary (
+  name = "185",
+  srcs = [
+    "185.cc",
+  ],
+)
