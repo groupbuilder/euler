@@ -14,3 +14,18 @@ cc_binary (
     "185.cc",
   ],
 )
+cc_binary (
+  name = "549",
+  srcs = [
+    "549.cc",
+  ],
+  deps = [
+    "//numbers:prime_lib",
+  ],
+)
+cc_binary (
+  name = "491",
+  srcs = [
+    "491.cc",
+  ],
+)
