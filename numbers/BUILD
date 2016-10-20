@@ -40,3 +40,24 @@ cc_binary (
   ],
 )
 
+cc_library (
+  name = "combination_lib",
+  srcs = [
+    "combination.cc",
+  ],
+  hdrs = [
+    "combination.h",
+  ],
+  visibility = ["//solutions:__pkg__"],
+)
+
+cc_binary (
+  name = "combination_test",
+  srcs = [
+    "combination_test.cc",
+  ],
+  deps = [
+    ":combination_lib",
+  ],
+)
+

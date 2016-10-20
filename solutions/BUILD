@@ -28,4 +28,7 @@ cc_binary (
   srcs = [
     "491.cc",
   ],
+  deps = [
+    "//numbers:combination_lib",
+  ],
 )
