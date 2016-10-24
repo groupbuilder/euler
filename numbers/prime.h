@@ -13,3 +13,4 @@ private:
   int N;
 };
 
+int64_t Gcd(int64_t m, int64_t n);

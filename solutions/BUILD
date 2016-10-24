@@ -32,3 +32,12 @@ cc_binary (
     "//numbers:combination_lib",
   ],
 )
+cc_binary (
+  name = "443",
+  srcs = [
+    "443.cc",
+  ],
+  deps = [
+    "//numbers:prime_lib",
+  ],
+)

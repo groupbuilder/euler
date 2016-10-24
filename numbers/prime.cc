@@ -54,3 +54,12 @@ bool Prime::IsPrime(long long x) {
 int Prime::Count() {
   return pcnt;
 }
+
+int64_t Gcd(int64_t m, int64_t n) {
+  while (n) {
+    int64_t t = m;
+    m = n;
+    n = t % n;
+  }
+  return m;
+}
